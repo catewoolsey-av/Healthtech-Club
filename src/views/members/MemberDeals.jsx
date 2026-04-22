@@ -269,7 +269,7 @@ View deal: ${window.location.origin}/deals
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
-            to: ['cate.woolsey@av.vc', 'luke@av.vc'],
+            to: ['cate.woolsey@av.vc', 'clubs@av.vc', 'michael.peri@av.vc', 'david@av.vc'],
             subject: emailSubject,
             text: emailText,
             html: emailBody
